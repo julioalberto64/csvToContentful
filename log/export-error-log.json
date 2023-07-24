@@ -1,0 +1,102 @@
+[
+  {
+    "ts": "2023-06-09T19:58:39.534Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "original": {
+          "fields": {
+            "goal": {
+              "es": "monthlyGoal"
+            },
+            "country": {
+              "es": "SV"
+            },
+            "segmentId": {
+              "es": "MAINTAIN_0"
+            },
+            "productId": {
+              "es": "2812"
+            },
+            "month": {
+              "es": 4
+            },
+            "year": {
+              "es": 2023
+            },
+            "levelId": {
+              "es": 1
+            }
+          },
+          "sys": {
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "{contentType}"
+              }
+            }
+          }
+        },
+        "transformed": {
+          "fields": {
+            "goal": {
+              "es": "monthlyGoal"
+            },
+            "country": {
+              "es": "SV"
+            },
+            "segmentId": {
+              "es": "MAINTAIN_0"
+            },
+            "productId": {
+              "es": "2812"
+            },
+            "month": {
+              "es": 4
+            },
+            "year": {
+              "es": 2023
+            },
+            "levelId": {
+              "es": 1
+            }
+          },
+          "sys": {
+            "contentType": {
+              "sys": {
+                "type": "Link",
+                "linkType": "ContentType",
+                "id": "{contentType}"
+              }
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The content type you sent could not be found or was not activated.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/zmkbqee1rrej/environments/nonprod/entries",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.cli/2.6.4; feature space-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v16.14.0; os macOS/v16.14.0;",
+            "CF-Sequence": "e2fc3f33-befe-4ce4-bd57-af79404cf007",
+            "Authorization": "Bearer ...-dZeY",
+            "X-Contentful-Content-Type": "{contentType}",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 175
+          },
+          "method": "post",
+          "payloadData": "{\"fields\":{\"goal\":{\"es\":\"monthlyGoal\"},\"country\":{\"es\":\"SV\"},\"segmentId\":{\"es\":\"MAINTAIN_0\"},\"productId\":{\"es\":\"2812\"},\"month\":{\"es\":4},\"year\":{\"es\":2023},\"levelId\":{\"es\":1}}}"
+        },
+        "requestId": "495267d5-d971-43b2-aa72-f3552a2bb123"
+      }
+    }
+  }
+]
